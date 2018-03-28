@@ -1,0 +1,12 @@
+modname:rustic
+var: %stairs_slate_roof=1440
+var: %log=1770
+var: %stairs_slate_brick=1727
+var: %stairs_olive=1783
+var: %stairs_ironwood=1784
+
+
+customblock:id=%stairs_slate_roof,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+customblock:id=%stairs_slate_brick,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+customblock:id=%stairs_olive,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+customblock:id=%stairs_ironwood,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*

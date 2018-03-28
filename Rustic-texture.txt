@@ -1,0 +1,35 @@
+modname:rustic
+var: %stairs_slate_roof=1440
+var: %log=1770
+var: %stairs_slate_brick=1727
+var: %stairs_olive=1783
+var: %stairs_ironwood=1784
+var: %slate=1438
+var: %planks=1796
+texturepath:assets/rustic/textures/blocks/
+
+texture:id=rustic/olivelog,filename=assets/rustic/textures/blocks/log_olive.png
+texture:id=rustic/olivelogtop,filename=assets/rustic/textures/blocks/log_olive_top.png
+#texture:id=rustic/,filename=assets/rustic/textures/blocks/.png #todo, log:olivebark
+texture:id=rustic/ironwoodlog,filename=assets/rustic/textures/blocks/log_ironwood.png
+texture:id=rustic/ironwoodlogtop,filename=assets/rustic/textures/blocks/log_ironwood_top.png
+#texture:id=rustic/,filename=assets/rustic/textures/blocks/.png #todo, log:ironwoodbark
+texture:id=rustic/ironwoodplanks,filename=assets/rustic/textures/blocks/planks_ironwood.png
+texture:id=rustic/oliveplanks,filename=assets/rustic/textures/blocks/planks_olive.png
+texture:id=rustic/slate,filename=assets/rustic/textures/blocks/slate.png
+
+
+#%log
+block:id=%log,data=0,stdrot=true,face0-1=0:rustic/olivelogtop,face2-5=0:rustic/olivelog
+block:id=%log,data=1,stdrot=true,face0-1=0:rustic/ironwoodlogtop,face2-5=0:rustic/ironwoodlog
+
+#%planks
+block:id=%planks,data=0,stdrot=true,face0-5=0:rustic/oliveplanks
+block:id=%planks,data=1,stdrot=true,face0-5=0:rustic/ironwoodplanks
+
+#%slate
+block:id=%slate,data=*,stdrot=true,face0-5=0:rustic/slate
+
+#%stairs
+block:id=%stairs_ironwood,data=*,stdrot=true,face0-5=0:rustic/ironwoodplanks
+block:id=%stairs_olive,data=*,stdrot=true,face0-5=0:rustic/oliveplanks

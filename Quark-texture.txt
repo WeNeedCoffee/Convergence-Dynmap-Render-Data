@@ -1,0 +1,11 @@
+modname:quark
+var: %marble=235
+var: %stone_marble_stairs=238
+var: %marble_wall=239
+texturepath:assets/quark/textures/blocks/
+
+texture:id=quark/marble,filename=assets/quark/textures/blocks/stone_marble.png
+
+block:id=%marble,data=*,stdrot=true,face0-5=0:quark/marble
+block:id=%stone_marble_stairs,data=*,stdrot=true,face0-5=0:quark/marble
+block:id=%marble_wall,data=*,stdrot=true,face0-5=0:quark/marble

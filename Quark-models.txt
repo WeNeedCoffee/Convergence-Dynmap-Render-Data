@@ -1,0 +1,5 @@
+modname:quark
+var: %stone_marble_stairs=238
+var: %marble_wall=239
+customblock:id=%stone_marble_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+customblock:id=%marble_wall,class=org.dynmap.hdmap.renderer.FenceWallBlockRenderer,data=*

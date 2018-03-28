@@ -1,0 +1,518 @@
+modname:biomesoplenty
+var: %grass=472
+var: %dirt=473
+var: %grass_path=474
+var: %farmland_0=475
+var: %farmland_1=476
+var: %stone=477
+#var: %crag_rock=226
+var: %dried_sand=479
+var: %hard_ice=480
+var: %ash_block=4376
+var: %mud=482
+var: %sand=596
+var: %flesh=483
+var: %crystal=484
+var: %biome_block=485
+var: %gem_ore=486
+var: %gem_block=487
+var: %hive=488
+var: %honey_block=489
+#var: %bone_segment=239
+var: %jelled_poison=490
+var: %bamboo_thatching=491
+var: %mud_brick_block=492
+var: %mud_brick_stairs=493
+var: %other_slab=494
+var: %double_other_slab=495
+var: %log_0=496
+var: %log_1=497
+var: %log_2=498
+var: %log_3=499
+var: %log_4=500
+var: %leaves_0=501
+var: %leaves_1=502
+var: %leaves_2=503
+var: %leaves_3=504
+var: %leaves_4=505
+var: %leaves_5=506
+var: %leaves_6=507
+var: %planks_0=508
+var: %sacred_oak_stairs=509
+var: %cherry_stairs=510
+var: %umbran_stairs=511
+var: %fir_stairs=512
+var: %ethereal_stairs=513
+var: %magic_stairs=514
+var: %mangrove_stairs=515
+var: %palm_stairs=516
+var: %redwood_stairs=517
+var: %willow_stairs=518
+var: %pine_stairs=519
+var: %hellbark_stairs=520
+var: %jacaranda_stairs=521
+var: %mahogany_stairs=522
+var: %ebony_stairs=523
+var: %eucalyptus_stairs=524
+var: %wood_slab_0=525
+var: %double_wood_slab_0=526
+var: %wood_slab_1=527
+var: %double_wood_slab_1=528
+var: %sacred_oak_fence=529
+var: %cherry_fence=530
+var: %umbran_fence=531
+var: %fir_fence=532
+var: %ethereal_fence=533
+var: %magic_fence=534
+var: %mangrove_fence=535
+var: %palm_fence=536
+var: %redwood_fence=537
+var: %willow_fence=538
+var: %pine_fence=539
+var: %hellbark_fence=540
+var: %jacaranda_fence=541
+var: %mahogany_fence=542
+var: %ebony_fence=543
+var: %eucalyptus_fence=544
+var: %sacred_oak_fence_gate=545
+var: %cherry_fence_gate=546
+var: %umbran_fence_gate=547
+var: %fir_fence_gate=548
+var: %ethereal_fence_gate=549
+var: %magic_fence_gate=550
+var: %mangrove_fence_gate=551
+var: %palm_fence_gate=552
+var: %redwood_fence_gate=553
+var: %willow_fence_gate=554
+var: %pine_fence_gate=555
+var: %hellbark_fence_gate=556
+var: %jacaranda_fence_gate=557
+var: %mahogany_fence_gate=558
+var: %ebony_fence_gate=559
+var: %eucalyptus_fence_gate=560
+var: %sacred_oak_door_block=561
+var: %cherry_door_block=562
+var: %umbran_door_block=563
+var: %fir_door_block=564
+var: %ethereal_door_block=565
+var: %magic_door_block=566
+var: %mangrove_door_block=567
+var: %palm_door_block=568
+var: %redwood_door_block=569
+var: %willow_door_block=570
+var: %pine_door_block=571
+var: %hellbark_door_block=572
+var: %jacaranda_door_block=573
+var: %mahogany_door_block=574
+var: %ebony_door_block=575
+var: %eucalyptus_door_block=576
+var: %stone_formations=577
+var: %coral=578
+var: %seaweed=579
+var: %waterlily=580
+var: %bamboo=581
+var: %turnip_block=582
+var: %sapling_0=583
+var: %sapling_1=584
+var: %sapling_2=585
+var: %plant_0=586
+var: %plant_1=587
+var: %double_plant=588
+var: %mushroom=589
+var: %flower_0=590
+var: %flower_1=591
+var: %flower_vine=592
+var: %ivy=593
+var: %tree_moss=594
+var: %terrarium=595
+var: %honey=597
+var: %blood=598
+var: %poison=599
+var: %hot_spring_water=600
+
+var:biome_ids/Moor_ID=68
+var:biome_ids/Jade_Cliffs_ID=74
+#overgrown?
+#var:biome_ids/Overgrown_Cliffs_ID=74
+var:biome_ids/Snowy_Coniferous_Forest_ID=83
+var:biome_ids/Volcano_ID=0
+var:biome_ids/Volcanic_Island_ID=101
+var:biome_ids/Thicket_ID=0
+var:biome_ids/Outback_ID=73
+var:biome_ids/Meadow_ID=67
+var:biome_ids/Oasis_ID=95
+var:biome_ids/Lush_River_ID=0
+var:biome_ids/Bamboo_Forest_ID=42
+var:biome_ids/Grove_ID=58
+var:biome_ids/Scrubland_ID=0
+var:biome_ids/Sludgepit_ID=0
+var:biome_ids/Garden_ID=0
+var:biome_ids/Coniferous_Forest_ID=50
+var:biome_ids/Canyon_Ravine_ID=0
+var:biome_ids/Woodland_ID=91
+var:biome_ids/Alps_Forest_ID=0
+var:biome_ids/Arctic_ID=0
+var:biome_ids/Steppe_ID=85
+var:biome_ids/Visceral_Heap_ID=108
+var:biome_ids/Spruce_Woods_ID=0
+var:biome_ids/Shrubland_ID=82
+var:biome_ids/Xeric_Shrubland=92
+var:biome_ids/Bog_ID=44
+var:biome_ids/Glacier_ID=94
+var:biome_ids/Dead_Swamp_ID=53
+var:biome_ids/Mountain_ID=0
+var:biome_ids/Mangrove_ID=98
+var:biome_ids/Grassland_ID=57
+var:biome_ids/Maple_Woods_ID=65
+var:biome_ids/Highland_ID=60
+var:biome_ids/Mystic_Grove_ID=70
+var:biome_ids/Fungi_Forest_ID=104
+var:biome_ids/Dead_Forest_ID=52
+var:biome_ids/Tropical_Rainforest_ID=87
+var:biome_ids/Frost_Forest_ID=0
+var:biome_ids/Boneyard_ID=0
+var:biome_ids/Lush_Desert_ID=63
+var:biome_ids/Prairie_ID=75
+var:biome_ids/Phantasmagoric_Inferno_ID=105
+var:biome_ids/Redwood_Forest_ID=78
+var:biome_ids/Sacred_Springs_ID=79
+var:biome_ids/Wasteland_ID=89
+var:biome_ids/Canyon_ID=0
+var:biome_ids/Undergarden_ID=107
+var:biome_ids/Cherry_Blossom_Grove_ID=48
+var:biome_ids/Lavender_Fields_ID=62
+var:biome_ids/Shield_ID=81
+var:biome_ids/Flower_Field_ID=56
+var:biome_ids/Flower_Island_ID=102
+var:biome_ids/Deciduous_Forest_ID=0
+var:biome_ids/Ominous_Woods_ID=71
+var:biome_ids/Fen_ID=55
+var:biome_ids/Wetland_ID=90
+var:biome_ids/Kelp_Forest_ID=97
+var:biome_ids/Boreal_Forest_ID=45
+var:biome_ids/Tropics_ID=0
+var:biome_ids/Dry_River_ID=0
+var:biome_ids/Silkglades_ID=0
+var:biome_ids/Chaparral_ID=47
+var:biome_ids/Lush_Swamp_ID=64
+var:biome_ids/Origin_Valley_ID=0
+var:biome_ids/Meadow_Forest_ID=0
+var:biome_ids/Heathland_ID=59
+var:biome_ids/Marsh_ID=66
+var:biome_ids/Seasonal_Forest_ID=80
+var:biome_ids/Tundra_ID=88
+var:biome_ids/Rainforest_ID=77
+var:biome_ids/Brushland_ID=46
+var:biome_ids/Coral_Reef_ID=96
+var:biome_ids/Alps_ID=41
+var:biome_ids/Temperate_Rainforest_ID=86
+var:biome_ids/Bayou_ID=43
+var:biome_ids/Crag_ID=51
+var:biome_ids/Quagmire_ID=76
+var:biome_ids/Corrupted_Sands_ID=103
+var:biome_ids/Orchard_ID=72
+
+#cfgfile:config/biomesoplenty/ids.cfg
+
+patch:id=VertX1Z0ToX0Z1,Ox=1.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0,visibility=flip
+patch:id=VertX025,Ox=0.25,Oy=0.0,Oz=1.0,Ux=0.25,Uy=0.0,Uz=0.0,Vx=0.25,Vy=1.0,Vz=1.0
+patch:id=VertX075,Ox=0.75,Oy=0.0,Oz=1.0,Ux=0.75,Uy=0.0,Uz=0.0,Vx=0.75,Vy=1.0,Vz=1.0
+patch:id=HorizY001ZTop,Ox=0.0,Oy=0.01,Oz=0.0,Ux=1.0,Uy=0.01,Uz=0.0,Vx=0.0,Vy=0.01,Vz=1.0
+patch:id=SlopeXUpZTop,Ox=0.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0
+patch:id=VertX0In,Ox=0.0,Oy=0.0,Oz=1.0,Ux=0.0,Uy=0.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0
+patch:id=VertX04375,Ox=0.4375,Oy=0.0,Oz=0.0,Ux=0.4375,Uy=0.0,Uz=1.0,Vx=0.4375,Vy=1.0,Vz=0.0,visibility=top
+patch:id=TorchSide1,Ox=-0.5,Oy=0.2,Oz=0.4375,Ux=0.5,Uy=0.2,Uz=0.4375,Vx=-0.1,Vy=1.2,Vz=0.4375,Vmax=0.8,visibility=bottom
+patch:id=TorchSide2,Ox=-0.5,Oy=0.2,Oz=0.5625,Ux=0.5,Uy=0.2,Uz=0.5625,Vx=-0.1,Vy=1.2,Vz=0.5625,Vmax=0.8,visibility=top
+patch:id=TorchSide3,Ox=0.0625,Oy=0.2,Oz=0.0,Ux=0.0625,Uy=0.2,Uz=1.0,Vx=0.4625,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=bottom
+patch:id=TorchSide4,Ox=-0.0625,Oy=0.2,Oz=0.0,Ux=-0.0625,Uy=0.2,Uz=1.0,Vx=0.3375,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=top
+patch:id=TorchTop,Ox=0.0,Oy=0.625,Oz=-0.0625,Ux=1.0,Uy=0.625,Uz=-0.0625,Vx=0.0,Vy=0.625,Vz=0.9375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=TorchTopSlope,Ox=0.0,Oy=0.825,Oz=-0.3625,Ux=1.0,Uy=0.825,Uz=-0.3625,Vx=0.0,Vy=0.825,Vz=0.6375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=VertX00625,Ox=0.0625,Oy=0.0,Oz=0.0,Ux=0.0625,Uy=0.0,Uz=1.0,Vx=0.0625,Vy=1.0,Vz=0.0,visibility=top
+patch:id=HorizY100ZTop,Ox=0.0,Oy=1.0,Oz=0.0,Ux=1.0,Uy=1.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0,visibility=bottom
+
+#doors
+customblock:id=%sacred_oak_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%cherry_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%umbran_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%fir_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%ethereal_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%magic_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%mangrove_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%palm_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%redwood_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%willow_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%pine_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%hellbark_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%jacaranda_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%mahogany_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%ebony_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+customblock:id=%eucalyptus_door,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+
+
+# %plant_1
+#Deadgrass,desergrass sprouts dunecrass fern thorn
+boxblock:id=%plants,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=0,data=1,data=2,data=3,data=4,data=5,data=6
+#cattail
+boxblock:id=%plants,xmin=0.125,xmax=0.875,ymin=0.0,ymax=1.0,zmin=0.125,zmax=0.875,data=7
+#cane,cattailtop/cattailbottom
+boxblock:id=%plants,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=8,data=9,data=10,data=11
+#cactus
+boxblock:id=%plants,xmin=0.11666667461395264,xmax=0.5166666507720947,ymin=0.0,ymax=0.4,zmin=0.42,zmax=0.82,data=12
+#witherwart,reed,root
+boxblock:id=%plants,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=13,data=14,data=15
+
+# %flower_0
+#clover
+boxblock:id=%flower_0,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.016,zmin=0.0,zmax=1.0,data=0
+#flowers
+boxblock:id=%flower_0,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=1,data=2,data=3,data=4
+#cosmos
+boxblock:id=%flower_0,xmin=0.3,xmax=0.7,ymin=0.0,ymax=0.8,zmin=0.3,zmax=0.7,data=5
+#daffodil
+boxblock:id=%flower_0,xmin=0.3,xmax=0.7,ymin=0.0,ymax=0.6,zmin=0.3,zmax=0.7,data=6
+#wildflower/violet
+boxblock:id=%flower_0,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=7,data=8
+#anemone
+boxblock:id=%flower_0,xmin=0.3,xmax=0.7,ymin=0.0,ymax=0.5,zmin=0.3,zmax=0.7,data=9
+#lillyflower
+boxblock:id=%flower_0,xmin=0.0,xmax=1.0E-4,ymin=0.0,ymax=1.0E-4,zmin=0.0,zmax=1.0E-4,data=10
+#enderlotus
+boxblock:id=%flower_0,xmin=0.3,xmax=0.7,ymin=0.0,ymax=0.4,zmin=0.3,zmax=0.7,data=11
+boxblock:id=%flower_0,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=12,data=13,data=14
+boxblock:id=%flower_0,xmin=0.3,xmax=0.7,ymin=0.0,ymax=0.6,zmin=0.3,zmax=0.7,data=15
+
+# %flowers2:* (flowers2), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPFlower2
+patchblock:id=%flowers2,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %stoneFormations:* (stoneFormations), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockStoneFormations
+patchblock:id=%stoneFormations,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %mushrooms:* (mushrooms), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPMushroom
+patchblock:id=%mushrooms,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %willow:* (willow), render=(VINE), opaque=false,cls=biomesoplenty.common.blocks.BlockWillow
+patchblock:id=%willow,patch0=VertX0In@270#0,data=1
+patchblock:id=%willow,patch0=VertX0In#0,data=2
+patchblock:id=%willow,patch0=VertX0In@270#0,patch1=VertX0In#0,data=3
+patchblock:id=%willow,patch0=VertX0In@90#0,data=4
+patchblock:id=%willow,patch0=VertX0In@90#0,patch1=VertX0In@270#0,data=5
+patchblock:id=%willow,patch0=VertX0In#0,patch1=VertX0In@90#0,data=6
+patchblock:id=%willow,patch0=VertX0In@90#0,patch1=VertX0In@270#0,patch2=VertX0In#0,data=7
+patchblock:id=%willow,patch0=VertX0In@180#0,data=8
+patchblock:id=%willow,patch0=VertX0In@180#0,patch1=VertX0In@270#0,data=9
+patchblock:id=%willow,patch0=VertX0In#0,patch1=VertX0In@180#0,data=10
+patchblock:id=%willow,patch0=VertX0In#0,patch1=VertX0In@180#0,patch2=VertX0In@270#0,data=11
+patchblock:id=%willow,patch0=VertX0In@90#0,patch1=VertX0In@180#0,data=12
+patchblock:id=%willow,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,data=13
+patchblock:id=%willow,patch0=VertX0In@180#0,patch1=VertX0In#0,patch2=VertX0In@90#0,data=14
+patchblock:id=%willow,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,patch3=VertX0In#0,data=15
+
+# %ivy:* (ivy), render=(VINE), opaque=false,cls=biomesoplenty.common.blocks.BlockIvy
+patchblock:id=%ivy,patch0=VertX0In@270#0,data=1
+patchblock:id=%ivy,patch0=VertX0In#0,data=2
+patchblock:id=%ivy,patch0=VertX0In@270#0,patch1=VertX0In#0,data=3
+patchblock:id=%ivy,patch0=VertX0In@90#0,data=4
+patchblock:id=%ivy,patch0=VertX0In@90#0,patch1=VertX0In@270#0,data=5
+patchblock:id=%ivy,patch0=VertX0In#0,patch1=VertX0In@90#0,data=6
+patchblock:id=%ivy,patch0=VertX0In@90#0,patch1=VertX0In@270#0,patch2=VertX0In#0,data=7
+patchblock:id=%ivy,patch0=VertX0In@180#0,data=8
+patchblock:id=%ivy,patch0=VertX0In@180#0,patch1=VertX0In@270#0,data=9
+patchblock:id=%ivy,patch0=VertX0In#0,patch1=VertX0In@180#0,data=10
+patchblock:id=%ivy,patch0=VertX0In#0,patch1=VertX0In@180#0,patch2=VertX0In@270#0,data=11
+patchblock:id=%ivy,patch0=VertX0In@90#0,patch1=VertX0In@180#0,data=12
+patchblock:id=%ivy,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,data=13
+patchblock:id=%ivy,patch0=VertX0In@180#0,patch1=VertX0In#0,patch2=VertX0In@90#0,data=14
+patchblock:id=%ivy,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,patch3=VertX0In#0,data=15
+
+# %tree_moss:* (tree_moss), render=(VINE), opaque=false,cls=biomesoplenty.common.blocks.BlockTreeMoss
+patchblock:id=%tree_moss,patch0=VertX0In@270#0,data=1
+patchblock:id=%tree_moss,patch0=VertX0In#0,data=2
+patchblock:id=%tree_moss,patch0=VertX0In@270#0,patch1=VertX0In#0,data=3
+patchblock:id=%tree_moss,patch0=VertX0In@90#0,data=4
+patchblock:id=%tree_moss,patch0=VertX0In@90#0,patch1=VertX0In@270#0,data=5
+patchblock:id=%tree_moss,patch0=VertX0In#0,patch1=VertX0In@90#0,data=6
+patchblock:id=%tree_moss,patch0=VertX0In@90#0,patch1=VertX0In@270#0,patch2=VertX0In#0,data=7
+patchblock:id=%tree_moss,patch0=VertX0In@180#0,data=8
+patchblock:id=%tree_moss,patch0=VertX0In@180#0,patch1=VertX0In@270#0,data=9
+patchblock:id=%tree_moss,patch0=VertX0In#0,patch1=VertX0In@180#0,data=10
+patchblock:id=%tree_moss,patch0=VertX0In#0,patch1=VertX0In@180#0,patch2=VertX0In@270#0,data=11
+patchblock:id=%tree_moss,patch0=VertX0In@90#0,patch1=VertX0In@180#0,data=12
+patchblock:id=%tree_moss,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,data=13
+patchblock:id=%tree_moss,patch0=VertX0In@180#0,patch1=VertX0In#0,patch2=VertX0In@90#0,data=14
+patchblock:id=%tree_moss,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,patch3=VertX0In#0,data=15
+
+# %flower_vine:* (flower_vine), render=(VINE), opaque=false,cls=biomesoplenty.common.blocks.BlockFlowerVine
+patchblock:id=%flower_vine,patch0=VertX0In@270#0,data=1
+patchblock:id=%flower_vine,patch0=VertX0In#0,data=2
+patchblock:id=%flower_vine,patch0=VertX0In@270#0,patch1=VertX0In#0,data=3
+patchblock:id=%flower_vine,patch0=VertX0In@90#0,data=4
+patchblock:id=%flower_vine,patch0=VertX0In@90#0,patch1=VertX0In@270#0,data=5
+patchblock:id=%flower_vine,patch0=VertX0In#0,patch1=VertX0In@90#0,data=6
+patchblock:id=%flower_vine,patch0=VertX0In@90#0,patch1=VertX0In@270#0,patch2=VertX0In#0,data=7
+patchblock:id=%flower_vine,patch0=VertX0In@180#0,data=8
+patchblock:id=%flower_vine,patch0=VertX0In@180#0,patch1=VertX0In@270#0,data=9
+patchblock:id=%flower_vine,patch0=VertX0In#0,patch1=VertX0In@180#0,data=10
+patchblock:id=%flower_vine,patch0=VertX0In#0,patch1=VertX0In@180#0,patch2=VertX0In@270#0,data=11
+patchblock:id=%flower_vine,patch0=VertX0In@90#0,patch1=VertX0In@180#0,data=12
+patchblock:id=%flower_vine,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,data=13
+patchblock:id=%flower_vine,patch0=VertX0In@180#0,patch1=VertX0In#0,patch2=VertX0In@90#0,data=14
+patchblock:id=%flower_vine,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,patch3=VertX0In#0,data=15
+
+# %foliage:* (foliage), render=biomesoplenty.client.render.blocks.FoliageRenderer(CUSTOM), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPFoliage
+boxblock:id=%foliage,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.015625,zmin=0.0,zmax=1.0,data=0
+boxblock:id=%foliage,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.25,zmin=0.1,zmax=0.9,data=1
+boxblock:id=%foliage,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.6,zmin=0.1,zmax=0.9,data=2
+boxblock:id=%foliage,xmin=0.1,xmax=0.9,ymin=0.0,ymax=0.8,zmin=0.1,zmax=0.9,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12
+boxblock:id=%foliage,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.015625,zmin=0.0,zmax=1.0,data=13,data=14,data=15
+
+# %turnip:* (turnip), render=(CROPS), opaque=false,cls=biomesoplenty.common.blocks.BlockTurnip
+patchblock:id=%turnip,patch0=VertX075#0,patch1=VertX075@90#0,patch2=VertX025#0,patch3=VertX025@90#0,data=*
+
+# %coral1:* (coral1), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPCoral
+patchblock:id=%coral1,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %coral2:* (coral2), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPCoral
+patchblock:id=%coral2,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8
+
+# %moss:* (moss), render=(VINE), opaque=false,cls=biomesoplenty.common.blocks.BlockMoss
+patchblock:id=%moss,patch0=VertX0In@270#0,data=1
+patchblock:id=%moss,patch0=VertX0In#0,data=2
+patchblock:id=%moss,patch0=VertX0In@270#0,patch1=VertX0In#0,data=3
+patchblock:id=%moss,patch0=VertX0In@90#0,data=4
+patchblock:id=%moss,patch0=VertX0In@90#0,patch1=VertX0In@270#0,data=5
+patchblock:id=%moss,patch0=VertX0In#0,patch1=VertX0In@90#0,data=6
+patchblock:id=%moss,patch0=VertX0In@90#0,patch1=VertX0In@270#0,patch2=VertX0In#0,data=7
+patchblock:id=%moss,patch0=VertX0In@180#0,data=8
+patchblock:id=%moss,patch0=VertX0In@180#0,patch1=VertX0In@270#0,data=9
+patchblock:id=%moss,patch0=VertX0In#0,patch1=VertX0In@180#0,data=10
+patchblock:id=%moss,patch0=VertX0In#0,patch1=VertX0In@180#0,patch2=VertX0In@270#0,data=11
+patchblock:id=%moss,patch0=VertX0In@90#0,patch1=VertX0In@180#0,data=12
+patchblock:id=%moss,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,data=13
+patchblock:id=%moss,patch0=VertX0In@180#0,patch1=VertX0In#0,patch2=VertX0In@90#0,data=14
+patchblock:id=%moss,patch0=VertX0In@270#0,patch1=VertX0In@90#0,patch2=VertX0In@180#0,patch3=VertX0In#0,data=15
+
+# %saplings:* (saplings), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPSapling
+patchblock:id=%saplings,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %colorizedSaplings:* (colorizedSaplings), render=(CROSSEDSQUARES), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPColorizedSapling
+patchblock:id=%colorizedSaplings,patch0=VertX1Z0ToX0Z1#0,patch1=VertX1Z0ToX0Z1@90#0,data=*
+
+# %bones:* (bones), render=biomesoplenty.client.render.blocks.SmallBlockRenderer(CUSTOM), opaque=false,cls=biomesoplenty.common.blocks.BlockBones
+boxblock:id=%bones,xmin=0.37400001287460327,xmax=0.6259999871253967,ymin=0.0,ymax=1.0,zmin=0.37400001287460327,zmax=0.6259999871253967,data=0
+boxblock:id=%bones,xmin=0.18700000643730164,xmax=0.8130000233650208,ymin=0.0,ymax=1.0,zmin=0.18700000643730164,zmax=0.8130000233650208,data=1
+boxblock:id=%bones,xmin=0.37400001287460327,xmax=0.6259999871253967,ymin=0.37400001287460327,ymax=0.6259999871253967,zmin=0.0,zmax=1.0,data=3
+boxblock:id=%bones,xmin=0.0,xmax=1.0,ymin=0.37400001287460327,ymax=0.6259999871253967,zmin=0.37400001287460327,zmax=0.6259999871253967,data=4
+boxblock:id=%bones,xmin=0.18700000643730164,xmax=0.8130000233650208,ymin=0.18700000643730164,ymax=0.8130000233650208,zmin=0.0,zmax=1.0,data=5
+boxblock:id=%bones,xmin=0.0,xmax=1.0,ymin=0.18700000643730164,ymax=0.8130000233650208,zmin=0.18700000643730164,zmax=0.8130000233650208,data=6
+
+# %grave:* (grave), render=biomesoplenty.client.render.blocks.GraveRenderer(CUSTOM), opaque=false,cls=biomesoplenty.common.blocks.BlockGrave
+# FIXME: Box constraints truncated to 0.0<=val<=1.0
+boxblock:id=%grave,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.3,zmax=0.69,data=0
+boxblock:id=%grave,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.6875,zmin=0.3,zmax=0.69,data=1
+boxblock:id=%grave,xmin=0.3,xmax=0.69,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=2
+boxblock:id=%grave,xmin=0.3,xmax=0.69,ymin=0.0,ymax=0.6875,zmin=0.0,zmax=1.0,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %wood_slab_1:* (wood_slab_1), render=(STANDARD), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPSlab
+boxblock:id=%wood_slab_1,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%wood_slab_1,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %wood_slab_2:* (wood_slab_2), render=(STANDARD), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPSlab
+boxblock:id=%wood_slab_2,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%wood_slab_2,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %other_slab:* (other_slab), render=(STANDARD), opaque=false,cls=biomesoplenty.common.blocks.BlockBOPSlab
+boxblock:id=%other_slab,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%other_slab,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %sacred_oak_stairs:* (sacred_oak_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%sacred_oak_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %cherry_stairs:* (cherry_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%cherry_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %dark_stairs:* (dark_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%dark_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %fir_stairs:* (fir_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%fir_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %holy_stairs:* (holy_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%holy_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %magic_stairs:* (magic_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%magic_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %mangrove_stairs:* (mangrove_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%mangrove_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %palm_stairs:* (palm_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%palm_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %redwood_stairs:* (redwood_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%redwood_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %willow_stairs:* (willow_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%willow_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %pine_stairs:* (pine_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%pine_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %hellbark_stairs:* (hellbark_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%hellbark_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %jacaranda_stairs:* (jacaranda_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%jacaranda_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %mahogany_stairs:* (mahogany_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%mahogany_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %mud_brick_stairs:* (mud_brick_stairs), render=(STAIRS), opaque=false,cls=biomesoplenty.common.blocks.BlockBOP_stairs
+customblock:id=%mud_brick_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %poison:* (poison), render=net.minecraftforge.fluids.RenderBlockFluid(FLUIDS), opaque=false,cls=biomesoplenty.common.fluids.blocks.BlockPoisonFluid
+boxblock:id=%poison,ymax=0.875,data=1
+boxblock:id=%poison,ymax=0.75,data=2
+boxblock:id=%poison,ymax=0.625,data=3
+boxblock:id=%poison,ymax=0.5,data=4
+boxblock:id=%poison,ymax=0.375,data=5
+boxblock:id=%poison,ymax=0.25,data=6
+boxblock:id=%poison,ymax=0.125,data=7
+boxblock:id=%poison,ymax=0.875,data=9
+boxblock:id=%poison,ymax=0.75,data=10
+boxblock:id=%poison,ymax=0.625,data=11
+boxblock:id=%poison,ymax=0.5,data=12
+boxblock:id=%poison,ymax=0.375,data=13
+boxblock:id=%poison,ymax=0.25,data=14
+boxblock:id=%poison,ymax=0.125,data=15
+
+# %hot_spring_water:* (hot_spring_water), render=net.minecraftforge.fluids.RenderBlockFluid(FLUIDS), opaque=false,cls=biomesoplenty.common.fluids.blocks.BlockSpringWaterFluid
+boxblock:id=%hot_spring_water,ymax=0.875,data=1
+boxblock:id=%hot_spring_water,ymax=0.75,data=2
+boxblock:id=%hot_spring_water,ymax=0.625,data=3
+boxblock:id=%hot_spring_water,ymax=0.5,data=4
+boxblock:id=%hot_spring_water,ymax=0.375,data=5
+boxblock:id=%hot_spring_water,ymax=0.25,data=6
+boxblock:id=%hot_spring_water,ymax=0.125,data=7
+boxblock:id=%hot_spring_water,ymax=0.875,data=9
+boxblock:id=%hot_spring_water,ymax=0.75,data=10
+boxblock:id=%hot_spring_water,ymax=0.625,data=11
+boxblock:id=%hot_spring_water,ymax=0.5,data=12
+boxblock:id=%hot_spring_water,ymax=0.375,data=13
+boxblock:id=%hot_spring_water,ymax=0.25,data=14
+boxblock:id=%hot_spring_water,ymax=0.125,data=15
+
+# %honey:* (honey), render=net.minecraftforge.fluids.RenderBlockFluid(FLUIDS), opaque=false,cls=biomesoplenty.common.fluids.blocks.BlockHoneyFluid
+boxblock:id=%honey,ymax=0.875,data=1
+boxblock:id=%honey,ymax=0.75,data=2
+boxblock:id=%honey,ymax=0.625,data=3
+boxblock:id=%honey,ymax=0.5,data=4
+boxblock:id=%honey,ymax=0.375,data=5
+boxblock:id=%honey,ymax=0.25,data=6
+boxblock:id=%honey,ymax=0.125,data=7
+boxblock:id=%honey,ymax=0.875,data=9
+boxblock:id=%honey,ymax=0.75,data=10
+boxblock:id=%honey,ymax=0.625,data=11
+boxblock:id=%honey,ymax=0.5,data=12
+boxblock:id=%honey,ymax=0.375,data=13
+boxblock:id=%honey,ymax=0.25,data=14
+boxblock:id=%honey,ymax=0.125,data=15
