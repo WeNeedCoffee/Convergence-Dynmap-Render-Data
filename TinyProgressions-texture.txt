@@ -1,0 +1,18 @@
+modname:tp
+
+var: %flint_block=2358
+var: %netherstar_block=2332
+var: %reinforced_glass=2327
+var: %reinforced_obsidian=2364
+texturepath:assets/tp/textures/blocks/
+
+texture:id=tp/netherstar_block,filename=assets/tp/textures/blocks/netherstar_block_side.png
+texture:id=tp/flint_block,filename=assets/tp/textures/blocks/flint_block.png
+texture:id=tp/reinforced_obsidian,filename=assets/tp/textures/blocks/reinforced_obsidian.png
+texture:id=tp/reinforced_glass,filename=assets/tp/textures/blocks/reinforced_glass.png
+texture:id=tp/smooth_endstone,filename=assets/tp/textures/blocks/smooth_endstone.png
+
+block:id=%flint_block,data=*,stdrot=true,face0-5=0:tp/flint_block
+block:id=%netherstar_block,data=*,stdrot=true,face0-5=0:tp/netherstar_block
+block:id=%reinforced_glass,data=*,stdrot=true,face0-5=0:tp/reinforced_glass
+block:id=%reinforced_obsidian,data=*,stdrot=true,face0-5=0:tp/reinforced_obsidian

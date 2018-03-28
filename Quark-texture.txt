@@ -2,10 +2,15 @@ modname:quark
 var: %marble=235
 var: %stone_marble_stairs=238
 var: %marble_wall=239
+var: %lit_lamp=269
+var: %limestone=240
 texturepath:assets/quark/textures/blocks/
 
 texture:id=quark/marble,filename=assets/quark/textures/blocks/stone_marble.png
-
+texture:id=quark/lit_lamp,filename=assets/minecraft/textures/blocks/redstone_lamp_on.png
+texture:id=quark/limestone,filename=assets/quark/textures/blocks/stone_limestone.png
 block:id=%marble,data=*,stdrot=true,face0-5=0:quark/marble
 block:id=%stone_marble_stairs,data=*,stdrot=true,face0-5=0:quark/marble
 block:id=%marble_wall,data=*,stdrot=true,face0-5=0:quark/marble
+block:id=%lit_lamp,data=*,stdrot=true,face0-5=0:quark/lit_lamp
+block:id=%limestone,data=*,stdrot=true,face0-5=0:quark/limestone
